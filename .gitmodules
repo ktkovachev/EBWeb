@@ -1,0 +1,3 @@
+[submodule "ebclient"]
+	path = ebclient
+	url = https://github.com/ktkovachev/ebclient
