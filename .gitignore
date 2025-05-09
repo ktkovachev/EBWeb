@@ -4,3 +4,4 @@ node_modules/
 dist/
 /.local
 /service-worker-tmp.js
+run.sh
