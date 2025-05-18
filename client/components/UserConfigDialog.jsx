@@ -1,5 +1,5 @@
 import React from "react";
-import ReactTooltip from "react-tooltip";
+import { Tooltip as ReactTooltip } from "react-tooltip";
 import { toastr } from "react-redux-toastr";
 import UserConfigProfiles from "./UserConfigProfiles.jsx";
 import { fetchJson, cancelEvent, formatTime } from "../functions";

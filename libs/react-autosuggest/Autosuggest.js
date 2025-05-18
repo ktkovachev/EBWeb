@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import shallowEqualArrays from "shallow-equal/arrays";
+import shallowEqualArrays from "shallow-equal";
 import Autowhatever from "react-autowhatever";
 import { defaultTheme, mapToAutowhateverTheme } from "./theme";
 

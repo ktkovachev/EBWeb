@@ -1,6 +1,6 @@
 import { toastr } from "react-redux-toastr";
-import csvStringify from "csv-stringify/lib/browser/sync";
-import csvParse from "csv-parse/lib/browser/sync";
+import { stringify as csvStringify } from "csv-stringify/sync";
+import { parse as csvParse } from "csv-parse/sync";
 import { netquery_sources, netquery_request } from "../netquery";
 import db, {
   putNote,
